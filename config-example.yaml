@@ -1,0 +1,44 @@
+style:
+  listItem:
+    normalTitle:
+      dark:
+      light:
+    normalDesc:
+      dark:
+      light:
+    selectedTitle:
+      borderforeground:
+        dark:
+        light:
+      foreground:
+        dark:
+        light:
+    selectedDesc:
+      dark:
+      light:
+    dimmedTitle:
+      dark:
+      light:
+    dimmedDesc:
+      dark:
+      light:
+    filterMatch:
+      borderforeground:
+        dark:
+        light:
+      foreground:
+        dark:
+        light:
+  visited:
+    dark:
+    light:
+  window:
+    border: normal
+    color:
+      dark:
+      light:
+  tab:
+    color:
+      dark:
+      light:
+workers:

@@ -1,0 +1,19 @@
+_extends: .github
+
+repository:
+    description: 📰 Hackertea a TUI for Hackernews.
+    homepage: https://github.com/KarolosLykos/hackerteae
+    topics: go, cli, tui, golang, hackernews, bubbletea, lipgloss, bubble, elm-architecture, terminal
+    private: true
+    
+branches:
+  - name: main
+    protection:
+      required_pull_request_reviews:
+        required_approving_review_count: 1
+        dismiss_stale_reviews: true
+        require_code_owner_reviews: true
+      required_status_checks:
+        strict: true
+        contexts: []
+      required_linear_history: true
