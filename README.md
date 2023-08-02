@@ -1,13 +1,39 @@
 <h1><span style="color: #FF6600">Hacker</span><span style="color: #5a56e0">Tea</span></h1>
 
+<p align="center">
+
 <a style="text-decoration: none" href="go.mod">
-<img src="https://img.shields.io/badge/Go-v1.19-blue?style=flat-square" alt="Go version">
+<img src="https://img.shields.io/github/go-mod/go-version/KarolosLykos/hackertea?style=flat-square" alt="Go version">
 </a>
 
 <a href="https://codecov.io/gh/KarolosLykos/hackertea" style="text-decoration: none">
 <img src="https://img.shields.io/codecov/c/github/KarolosLykos/hackertea?color=magenta&style=flat-square&token=JQTnUwF7AK"alt="Downloads">
 </a>
- 
+
+<a style="text-decoration: none" href="https://github.com/KarolosLykos/hackertea/actions?query=workflow%3AGo+branch%3Amain">
+<img src="https://img.shields.io/github/actions/workflow/status/KarolosLykos/hackertea/go.yml?style=flat-square" alt="Build Status">
+</a>
+
+<a style="text-decoration: none" href="https://github.com/KarolosLykos/hackertea/actions?query=workflow%3ACodeQL+branch%3Amain">
+<img src="https://img.shields.io/github/actions/workflow/status/KarolosLykos/hackertea/codeql-analysis.yml?style=flat-square&label=CodeQL" alt="Build Status">
+</a>
+
+<a style="text-decoration: none" href="https://github.com/KarolosLykos/hackertea">
+<img src="https://img.shields.io/github/languages/top/KarolosLykos/hackertea?style=flat-square" alt="Build Status">
+</a>
+
+<br />
+<a style="text-decoration: none" href="https://github.com/KarolosLykos/hackertea/stargazers">
+<img src="https://img.shields.io/github/stars/KarolosLykos/hackertea.svg?style=flat-square" alt="Stars">
+</a>
+<a style="text-decoration: none" href="https://github.com/KarolosLykos/hackertea/fork">
+<img src="https://img.shields.io/github/forks/KarolosLykos/hackertea.svg?style=flat-square" alt="Forks">
+</a>
+<a style="text-decoration: none" href="https://github.com/KarolosLykos/hackertea/issues">
+<img src="https://img.shields.io/github/issues/KarolosLykos/hackertea.svg?style=flat-square" alt="Issues">
+</a>
+
+-----
 A command-line interface (CLI) tool that allows users to browse the Top, New, and Best stories on Hacker News. The tool includes a minimalist text-based user interface (TUI) that is developed using Bubble Tea, Lip Gloss, and Bubble libraries.
 
 <img alt="Welcome to Hachertea" src="demo.gif" width="1920"/>
