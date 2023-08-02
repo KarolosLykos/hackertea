@@ -4,7 +4,7 @@ repository:
     description: Hackertea a TUI for Hackernews.
     homepage: https://github.com/KarolosLykos/hackerteae
     topics: go, cli, tui, golang, hackernews, bubbletea, lipgloss, bubble, elm-architecture, terminal
-    private: true
+    private: false
     
 branches:
   - name: main
