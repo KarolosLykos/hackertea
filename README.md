@@ -1,3 +1,9 @@
+<p align="center">
+
+<img width="400" src="https://github.com/KarolosLykos/hackertea/blob/main/.github/assets/logo.png" />
+
+</p>
+
 <h1 align="center">💻 Hackertea | Hackernews TUI</h1>
 <p align="center">A minimal application for browsing Hacker News on the terminal</p>
 
