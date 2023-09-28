@@ -1,4 +1,5 @@
-<h1><span style="color: #FF6600">Hacker</span><span style="color: #5a56e0">Tea</span></h1>
+<h1 align="center">💻 Hackertea | Hackernews TUI</h1>
+<p align="center">A minimal application for browsing Hacker News on the terminal</p>
 
 <p align="center">
 
