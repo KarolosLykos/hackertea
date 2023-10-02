@@ -45,6 +45,31 @@ A command-line interface (CLI) tool that allows users to browse the Top, New, an
 
 <img alt="Welcome to Hachertea" src="demo.gif" width="1920"/>
 
+## Installation
+
+### Package Manager
+
+
+[releases]: https://github.com/KarolosLykos/hackertea/releases
+
+### Go
+
+Or just install it with `go`:
+
+```bash
+go install github.com/KarolosLykos/hackertea@latest
+```
+
+## Build From Source
+
+Or just build it yourself (requires Go 1.1x+):
+
+```bash
+git clone https://github.com/KarolosLykos/hackertea.git
+cd hackertea
+go build .
+```
+
 ## Features
 
 
