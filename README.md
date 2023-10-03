@@ -50,7 +50,6 @@ A command-line interface (CLI) tool that allows users to browse the Top, New, an
 ### Package Manager
 
 
-[releases]: https://github.com/KarolosLykos/hackertea/releases
 
 ### Go
 
