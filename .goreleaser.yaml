@@ -41,3 +41,18 @@ release:
     ---
 
     _Released with [GoReleaser](https://goreleaser.com)!_
+
+
+universal_binaries:
+  - replace: true
+
+brews:
+  -
+    name: hackertea
+    homepage: https://github.com/KarolosLykos/hackertea
+    tap:
+      owner: KarolosLykos
+      name: homebrew-tap
+    commit_author:
+      name: karoloslykos
+      email: l.g.karolos@gmail.com
