@@ -50,7 +50,7 @@ brews:
   -
     name: hackertea
     homepage: https://github.com/KarolosLykos/hackertea
-    tap:
+    repository:
       owner: KarolosLykos
       name: homebrew-tap
     commit_author:
