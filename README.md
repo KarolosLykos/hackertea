@@ -49,7 +49,7 @@ A command-line interface (CLI) tool that allows users to browse the Top, New, an
 
 ### Package Manager
 
-
+### Brew
 
 ### Go
 
