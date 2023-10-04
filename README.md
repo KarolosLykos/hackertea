@@ -54,7 +54,7 @@ A command-line interface (CLI) tool that allows users to browse the Top, New, an
 - Ubuntu/Debian:
 
 #### macOS
-- with [Homebrew](https://brew.sh/): `brew install karoloslykos/tap/hackertea
+- with [Homebrew](https://brew.sh/): `brew install karoloslykos/tap/hackertea`
 
 #### Windows
 
