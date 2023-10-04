@@ -47,9 +47,19 @@ A command-line interface (CLI) tool that allows users to browse the Top, New, an
 
 ## Installation
 
-### Package Manager
+### Packages
 
-### Brew
+#### Linux
+- Arch Linux:
+- Ubuntu/Debian:
+
+#### macOS
+- with [Homebrew](https://brew.sh/): `brew install karoloslykos/tap/hackertea
+
+#### Windows
+
+#### Binaries
+- [Binaries](https://github.com/karoloslykos/hackertea/releases) for Linux, macOS, Windoows
 
 ### Go
 
@@ -76,10 +86,10 @@ go build .
 - Fetch stories concurrently. (You can set the number of workers in the config file)
 - In-memory thread-safe cache for caching news.
 - A shiny UI to gaze your eyes upon.
-    - Tabs
-    - Separate pagination for each tab
-    - Fetch next pages
-    - Vim-like movements
+  - Tabs
+  - Separate pagination for each tab
+  - Fetch next pages
+  - Vim-like movements
 
 ## Libraries used
 
@@ -101,10 +111,10 @@ Simply take a look at the "config-example.yaml" file to see the available option
 
 
 - [ ] Add more screens
-    - [ ] Add Comments screen
-    - [ ] Add User profile screen
-    - [ ] Add Ask HN screen
-    - [ ] Add Jobs screen
+  - [ ] Add Comments screen
+  - [ ] Add User profile screen
+  - [ ] Add Ask HN screen
+  - [ ] Add Jobs screen
 - [ ] Add Changelog
 - [ ] Add additional styling options w/ Examples
 - [ ] Multi-language Support
