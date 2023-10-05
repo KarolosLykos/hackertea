@@ -46,6 +46,18 @@ release:
 universal_binaries:
   - replace: true
 
+nfpms:
+  - vendor: KarolosLykos
+    homepage: https://github.com/karoloslykos/hackertea
+    maintainer: KarolosLykos
+    license: MIT
+
+    formats:
+      - apk
+      - deb
+      - rpm
+      - archlinux
+
 brews:
   -
     name: hackertea
