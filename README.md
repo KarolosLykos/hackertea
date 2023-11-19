@@ -49,14 +49,14 @@ A command-line interface (CLI) tool that allows users to browse the Top, New, an
 
 ### Packages
 
-#### Linux
+<!--- #### Linux
 - Arch Linux:
 - Ubuntu/Debian:
-
+--->
 #### macOS
 - with [Homebrew](https://brew.sh/): `brew install karoloslykos/tap/hackertea`
 
-#### Windows
+<!--- #### Windows --->
 
 #### Binaries
 - [Binaries](https://github.com/karoloslykos/hackertea/releases) for Linux, macOS, Windoows
