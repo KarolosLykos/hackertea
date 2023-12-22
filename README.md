@@ -59,7 +59,7 @@ A command-line interface (CLI) tool that allows users to browse the Top, New, an
 <!--- #### Windows --->
 
 #### Binaries
-- [Binaries](https://github.com/karoloslykos/hackertea/releases) for Linux, macOS, Windoows
+- [Binaries](https://github.com/karoloslykos/hackertea/releases) for Linux, macOS, windows
 
 ### Go
 
