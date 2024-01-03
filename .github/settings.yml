@@ -1,7 +1,7 @@
 _extends: .github
 
 repository:
-    description: Hackertea a TUI for Hackernews.
+    description: Hackertea is a sleek and snappy terminal user interface crafted in Golang, designed to bring the latest HackerNews articles directly to your fingertips. Powered by the magic of Golang and the bubbly bubbletea library, this tool makes staying up-to-date with the tech world a breeze. Just fire up your terminal, launch Hackertea, and dive into the latest HackerNews stories with ease. It's your go-to companion for sipping on the latest tech news right from the command line. Happy hacking! 🚀 
     homepage: https://github.com/KarolosLykos/hackertea
     topics: go, cli, tui, golang, hackernews, bubbletea, lipgloss, bubble, elm-architecture, terminal
     private: false
