@@ -25,7 +25,7 @@ const (
 	TabBest = "Best"
 	Linux   = "linux"
 	Windows = "windows"
-	Darwing = "darwing"
+	Darwin  = "darwin"
 )
 
 var Items = struct {
