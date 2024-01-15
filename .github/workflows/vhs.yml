@@ -3,6 +3,9 @@ on:
   push:
     paths:
       - vhs.tape
+    tags:
+      - '!*'
+
 jobs:
   vhs:
     runs-on: ubuntu-latest
