@@ -65,7 +65,7 @@ brews:
     repository:
       owner: KarolosLykos
       name: homebrew-tap
-      token: "{{ .Env.PUBLISHER_TOKEN }}"
+      token: "{{ .Env.TAP_GITHUB_TOKEN }}"
     commit_author:
       name: karoloslykos
       email: l.g.karolos@gmail.com
