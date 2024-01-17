@@ -50,7 +50,7 @@ A command-line interface (CLI) tool that allows users to browse the Top, New, an
 ### Packages
 
 <!--- #### Linux
-- Arch Linux:
+- Arch Linux: yay hackertea
 - Ubuntu/Debian:
 --->
 #### macOS
