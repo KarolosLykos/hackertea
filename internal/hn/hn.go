@@ -81,6 +81,8 @@ func getSuffix(item constants.ItemType) (string, error) {
 		return constants.TopSuffix, nil
 	case constants.Items.BestItems:
 		return constants.BestSuffix, nil
+	case constants.Items.AskItems:
+		return constants.AskSuffix, nil
 	case constants.Items.SingleItem:
 		return constants.SingleSuffix, nil
 	default:

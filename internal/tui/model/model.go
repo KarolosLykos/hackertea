@@ -71,19 +71,25 @@ func New(ctx context.Context, client *hn.HN) (*model, error) {
 		return nil, err
 	}
 
+	askStories, err := client.GetItems(newCtx, constants.Items.AskItems)
+	if err != nil {
+		cancel()
+		return nil, err
+	}
+
 	m := &model{
 		cfg:     cfg,
 		ctx:     newCtx,
 		cancel:  cancel,
 		theme:   th,
-		ids:     [][]int{topStories, newStories, bestStories},
+		ids:     [][]int{topStories, newStories, bestStories, askStories},
 		client:  client,
 		spinner: s,
-		visited: make([]map[int]bool, 3),
-		tabs:    []string{constants.TabTop, constants.TabNew, constants.TabBest},
+		visited: make([]map[int]bool, 4),
+		tabs:    []string{constants.TabTop, constants.TabNew, constants.TabBest, constants.TabAsk},
 	}
 
-	m.TabContent = m.createTabContent(3)
+	m.TabContent = m.createTabContent(4)
 
 	listKeys := keys.NewListKeyMap()
 
