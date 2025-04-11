@@ -1,6 +1,6 @@
 module github.com/KarolosLykos/hackertea
 
-go 1.19
+go 1.23
 
 require (
 	github.com/adrg/xdg v0.5.3
