@@ -16,7 +16,7 @@ jobs:
           path: 'vhs.tape'
         env:
           TERM: xterm-256color
-      - uses: stefanzweifel/git-auto-commit-action@v6
+      - uses: stefanzweifel/git-auto-commit-action@v7
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
