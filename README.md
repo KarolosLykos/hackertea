@@ -94,7 +94,7 @@ go build .
 ## Libraries used
 
 
-* [Bubbletea](https://github.com/charmbracelet/bubbles): The fun, functional and stateful way to build terminal apps.
+* [Bubbletea](https://github.com/charmbracelet/bubbletea): The fun, functional and stateful way to build terminal apps.
 * [Bubbles](https://github.com/charmbracelet/bubbles): Common Bubble Tea components such as text inputs, viewports, spinners and so on
 * [Lip Gloss](https://github.com/charmbracelet/lipgloss): Style, format and layout tools for terminal applications
 
