@@ -14,12 +14,13 @@ func (i ItemType) Title() string {
 }
 
 const (
-	BaseURL      = "https://hacker-news.firebaseio.com/v0"
-	NewSuffix    = "newstories.json"
-	TopSuffix    = "topstories.json"
-	BestSuffix   = "beststories.json"
-	AskSuffix    = "askstories.json"
-	SingleSuffix = "item/%s.json"
+	BaseURL       = "https://hacker-news.firebaseio.com/v0"
+	NewSuffix     = "newstories.json"
+	TopSuffix     = "topstories.json"
+	BestSuffix    = "beststories.json"
+	AskSuffix     = "askstories.json"
+	SingleSuffix  = "item/%s.json"
+	WebItemURLFmt = "https://news.ycombinator.com/item?id=%d"
 
 	TabTop  = "Top"
 	TabNew  = "New"

@@ -26,6 +26,36 @@ func TestUtils_Min(t *testing.T) {
 	assert.Equal(t, 0, Min(0, 0))
 }
 
+func TestUtils_ItemURL(t *testing.T) {
+	testCases := []struct {
+		name     string
+		item     *item.Item
+		expected string
+	}{
+		{
+			name:     "nil item",
+			item:     nil,
+			expected: "",
+		},
+		{
+			name:     "item with URL is returned unchanged",
+			item:     &item.Item{ID: 42, URL: "https://example.com/article"},
+			expected: "https://example.com/article",
+		},
+		{
+			name:     "empty URL falls back to HN item page",
+			item:     &item.Item{ID: 12345, URL: ""},
+			expected: "https://news.ycombinator.com/item?id=12345",
+		},
+	}
+
+	for _, tc := range testCases {
+		t.Run(tc.name, func(t *testing.T) {
+			assert.Equal(t, tc.expected, ItemURL(tc.item))
+		})
+	}
+}
+
 func TestUtils_Open(t *testing.T) {
 	testCases := []struct {
 		name          string
