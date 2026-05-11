@@ -124,7 +124,7 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			return m, tea.Quit
 		case tea.KeyEnter.String():
 			if v, ok := m.TabContent[m.activeTab].SelectedItem().(*item.Item); ok {
-				if err := utils.Open(v.URL, runtime.GOOS); err != nil {
+				if err := utils.Open(utils.ItemURL(v), runtime.GOOS); err != nil {
 					return m, nil
 				}
 				v.Visited = true

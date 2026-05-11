@@ -30,6 +30,16 @@ func TestItem_Title(t *testing.T) {
 	assert.Equal(t, expected, item.Title())
 }
 
+func TestItem_Title_EmptyURL(t *testing.T) {
+	// Items without a URL (Ask HN posts, text-only jobs) should render the
+	// title alone, with no trailing empty parentheses.
+	item := Item{Titl: "Ask HN: How do you read books?"}
+	assert.Equal(t, "Ask HN: How do you read books?", item.Title())
+
+	item.Visited = true
+	assert.Equal(t, visitedStyle().Render("Ask HN: How do you read books?"), item.Title())
+}
+
 func TestItem_Description(t *testing.T) {
 	item := Item{
 		Score:       42,

@@ -29,6 +29,22 @@ func Min(a, b int) int {
 	return b
 }
 
+// ItemURL returns the URL that should be opened for the given item.
+// For items with a non-empty URL field this is the original link; for
+// text-only items (Ask HN posts, jobs without a URL) it falls back to
+// the Hacker News discussion page so Enter is never a no-op.
+func ItemURL(it *item.Item) string {
+	if it == nil {
+		return ""
+	}
+
+	if it.URL != "" {
+		return it.URL
+	}
+
+	return fmt.Sprintf(constants.WebItemURLFmt, it.ID)
+}
+
 // Open opens a URL in the default web browser for the user's platform.
 // The supported platforms are Linux, Windows, and macOS.
 func Open(url string, runtimeOS string) error {

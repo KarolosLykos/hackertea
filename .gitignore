@@ -33,3 +33,8 @@ dist/
 # env files that usually contain secrets or local config
 .env
 .envrc
+
+# Claude Code working files and skill manager artifacts
+.claude/
+.agents/
+skills-lock.json
