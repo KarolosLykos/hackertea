@@ -10,7 +10,7 @@ jobs:
   vhs:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - uses: charmbracelet/vhs-action@v2.1.0
         with:
           path: 'vhs.tape'
